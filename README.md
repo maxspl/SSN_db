@@ -5,12 +5,15 @@ The table from https://hfiref0x.github.io/NT10_syscalls.html is converted to jso
 Only the specified functions are stored to reduce json size. Default are : ["NtAllocateVirtualMemory","NtWriteVirtualMemory","NtCreateThreadEx"]
 
 # Usage
+```
 usage: get_SSN.py [-h] [-a [APIS]]
 
 optional arguments:
-    -h, --help            show this help message and exit
-    -a [APIS], --APIs [APIS] - comma separated list of API functions - case sensitive. Use All for default SSN.
 
+    -h, --help - show this help message and exit
+
+    -a [APIS], --APIs [APIS] - comma separated list of API functions - case sensitive. Use All for default SSN.
+```
 # Note
 read_json_xored function give an example of how the encoded SSN can be decoded.
 
