@@ -8,8 +8,11 @@ Only the specified functions are stored to reduce json size. Default are : ["NtA
 usage: get_SSN.py [-h] [-a [APIS]]
 
 optional arguments:
+
   -h, --help            show this help message and exit
+
   -a [APIS], --APIs [APIS]
+
                         comma separated list of API functions - case sensitive. Use All for default SSN.
 
 # Note
